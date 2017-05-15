@@ -10,7 +10,11 @@
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
+  "engines": {
+    "node": "6.10.2"
+  },
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   }
 }
